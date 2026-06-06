@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIVORA — Product</title>
+<meta name="description" content="VIVORA product detail — fermented RG3 K-beauty skincare for global buyers.">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans+Thai:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-keep-title="1">
+
+<!-- ============ HEADER ============ -->
+<header class="hdr scrolled" id="hdr">
+  <a href="index.html" class="hdr-logo-link">
+    <img src="assets/img/logo/vivora.png" alt="VIVORA" class="hdr-logo dark" style="display:block">
+  </a>
+  <nav class="nav">
+    <a href="index.html#story" data-i18n="nav_brand">Brand</a>
+    <a href="index.html#tech" data-i18n="nav_tech">Technology</a>
+    <a href="index.html#products" data-i18n="nav_products">Products</a>
+    <a href="index.html#global" data-i18n="nav_global">Global</a>
+    <a href="index.html#cert" data-i18n="nav_cert">Certifications</a>
+  </nav>
+  <div class="hdr-right">
+    <div class="lang">
+      <button class="lang-btn" id="langBtn"><span>🌐</span><span id="langLabel">EN</span><span>▾</span></button>
+      <div class="lang-menu" id="langMenu"></div>
+    </div>
+    <a href="index.html#contact" class="nav-cta" data-i18n="nav_cta">Become a Partner</a>
+    <button class="burger" id="burger" aria-label="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mnav" id="mnav">
+  <button class="close" id="mnavClose">×</button>
+  <a href="index.html#story" data-i18n="nav_brand">Brand</a>
+  <a href="index.html#tech" data-i18n="nav_tech">Technology</a>
+  <a href="index.html#products" data-i18n="nav_products">Products</a>
+  <a href="index.html#global" data-i18n="nav_global">Global</a>
+  <a href="index.html#cert" data-i18n="nav_cert">Certifications</a>
+  <a href="index.html#contact" class="btn btn-gold" data-i18n="nav_cta">Become a Partner</a>
+</div>
+
+<!-- ============ DETAIL ============ -->
+<main class="pd-wrap">
+  <a href="index.html#products" class="pd-back" data-i18n="detail_back">← All products</a>
+
+  <div class="pd-top">
+    <!-- gallery -->
+    <div class="pd-gallery">
+      <div class="pd-stage" id="pdStage">
+        <span class="pd-stage-tag" id="pdStageTag"></span>
+        <span class="pcard-shine"></span>
+      </div>
+      <div class="pd-thumbgroup">
+        <div class="pd-tg-label" data-i18n="detail_product">Product</div>
+        <div class="pd-thumbs" id="pdThumbsVessel"></div>
+      </div>
+      <div class="pd-thumbgroup" id="pdBoxGroup">
+        <div class="pd-tg-label" data-i18n="detail_outerbox">Package</div>
+        <div class="pd-thumbs" id="pdThumbsBox"></div>
+      </div>
+    </div>
+
+    <!-- info -->
+    <div class="pd-info">
+      <div class="pd-line" id="pdLine"></div>
+      <h1 id="pdName"></h1>
+      <div class="pd-vol" id="pdVol"></div>
+      <p class="pd-desc" id="pdDesc" data-pdesc=""></p>
+
+      <h2 class="pd-h" data-i18n="detail_keyingr">Key Ingredients</h2>
+      <ul class="pd-ingr" id="pdIngr"></ul>
+
+      <h2 class="pd-h" data-i18n="detail_spec">Specifications</h2>
+      <div class="pd-spec" id="pdSpec"></div>
+
+      <div class="pd-cta">
+        <a href="index.html#contact" class="btn btn-primary" data-i18n="detail_inquire">Inquire about this product</a>
+        <a href="index.html#products" class="btn btn-ghost" style="color:var(--purple);border-color:var(--line)" data-i18n="detail_back">← All products</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- related -->
+  <section class="pd-related">
+    <h2 data-i18n="detail_related">Explore more products</h2>
+    <div class="pd-rel-grid" id="pdRelated"></div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-top">
+      <div class="ftr-brand">
+        <img src="assets/img/logo/vivora-white.png" alt="VIVORA" class="ftr-logo" onerror="this.src='assets/img/logo/vivora.png'">
+        <p data-i18n="ftr_desc">Balanced skincare for the skin's natural health.</p>
+      </div>
+      <div class="ftr-links">
+        <div class="ftr-col">
+          <h5 data-i18n="ftr_explore">Explore</h5>
+          <a href="index.html#story" data-i18n="nav_brand">Brand</a>
+          <a href="index.html#tech" data-i18n="nav_tech">Technology</a>
+          <a href="index.html#products" data-i18n="nav_products">Products</a>
+          <a href="index.html#global" data-i18n="nav_global">Global</a>
+        </div>
+        <div class="ftr-col">
+          <h5 data-i18n="ftr_partner">Partnership</h5>
+          <a href="index.html#contact" data-i18n="nav_cta">Become a Partner</a>
+          <a href="assets/catalog/VIVORA-Brand-Introduction.pdf" download data-i18n="dl_brand2">Brand Introduction</a>
+          <a href="assets/catalog/VIVORA-Product-Catalog.pdf" download data-i18n="dl_catalog2">Product Catalogue</a>
+        </div>
+        <div class="ftr-col">
+          <h5 data-i18n="ftr_contact">Contact</h5>
+          <p>vivoralabs@naver.com</p>
+          <p>vivora.co.kr</p>
+        </div>
+      </div>
+    </div>
+    <div class="ftr-bot">
+      <span>© 2026 VIVORA LABS. All rights reserved.</span>
+      <span data-i18n="ftr_tag">Beauty in Balance</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/translations.js"></script>
+<script src="assets/js/translations-detail.js"></script>
+<script src="assets/js/product-data.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/product.js"></script>
+</body>
+</html>

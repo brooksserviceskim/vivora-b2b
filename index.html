@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="meta_title">VIVORA | Balanced K-Beauty Skincare — Global B2B Partnership</title>
+<meta name="description" data-i18n="meta_desc" content="VIVORA is a Korean derma-skincare brand built on fermented RG3 technology. Now expanding worldwide — partner with us for distribution and retail.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans+Thai:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="hdr" id="hdr">
+  <a href="#hero" class="hdr-logo-link">
+    <img src="assets/img/logo/vivora-white.png" alt="VIVORA" class="hdr-logo light" onerror="this.src='assets/img/logo/vivora.png'">
+    <img src="assets/img/logo/vivora.png" alt="VIVORA" class="hdr-logo dark">
+  </a>
+  <nav class="nav">
+    <a href="#story" data-i18n="nav_brand">Brand</a>
+    <a href="#tech" data-i18n="nav_tech">Technology</a>
+    <a href="#products" data-i18n="nav_products">Products</a>
+    <a href="#global" data-i18n="nav_global">Global</a>
+    <a href="#cert" data-i18n="nav_cert">Certifications</a>
+  </nav>
+  <div class="hdr-right">
+    <div class="lang">
+      <button class="lang-btn" id="langBtn"><span>🌐</span><span id="langLabel">EN</span><span>▾</span></button>
+      <div class="lang-menu" id="langMenu"></div>
+    </div>
+    <a href="#contact" class="nav-cta" data-i18n="nav_cta">Become a Partner</a>
+    <button class="burger" id="burger" aria-label="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- mobile nav -->
+<div class="mnav" id="mnav">
+  <button class="close" id="mnavClose">×</button>
+  <a href="#story" data-i18n="nav_brand">Brand</a>
+  <a href="#tech" data-i18n="nav_tech">Technology</a>
+  <a href="#products" data-i18n="nav_products">Products</a>
+  <a href="#global" data-i18n="nav_global">Global</a>
+  <a href="#cert" data-i18n="nav_cert">Certifications</a>
+  <a href="#contact" class="btn btn-gold" data-i18n="nav_cta">Become a Partner</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  </div>
+  <canvas class="hero-particles" id="particles"></canvas>
+  <div class="wrap">
+    <span class="hero-eyebrow" data-i18n="hero_eyebrow">KOREAN DERMA SKINCARE · SINCE THE LAB</span>
+    <h1 data-i18n-html="hero_title">Beauty in<br>Balance</h1>
+    <p class="hero-tag" data-i18n="hero_tag">Balanced skincare for the skin's natural health</p>
+    <p class="hero-desc" data-i18n="hero_desc">A Korean derma-skincare brand built on fermented RG3 technology — uniting nature-derived actives with skin science. Now partnering with buyers across Europe, the Americas and Asia.</p>
+    <div class="hero-cta">
+      <a href="#products" class="btn btn-ghost" data-i18n="hero_cta1">Explore the products</a>
+      <a href="#contact" class="btn btn-gold" data-i18n="hero_cta2">Partner with VIVORA</a>
+    </div>
+  </div>
+  <div class="hero-marquee"><div class="marquee-track" id="marquee"></div></div>
+  <div class="scroll-cue"><div class="mouse"></div><span data-i18n="scroll">SCROLL</span></div>
+</section>
+
+<!-- ============ STORY ============ -->
+<section class="story" id="story">
+  <div class="wrap split">
+    <div class="story-text">
+      <span class="eyebrow reveal" data-i18n="story_eyebrow">01 — Brand Story</span>
+      <h2 class="sec-title reveal d1" data-i18n="story_title">Born from real skin concerns</h2>
+      <p class="sec-lead reveal d2" data-i18n="story_p1">As skin dryness and sensitivity grew over time, we realized daily skincare is not a cosmetic routine but an essential factor shaping skin condition. Rather than temporary fixes, we searched for ingredients that genuinely support the skin.</p>
+      <p class="sec-lead reveal d2" style="margin-top:18px" data-i18n="story_p2">Through extensive raw-material research, expert consultation and continuous testing, VIVORA was built on three core principles.</p>
+      <div class="principles">
+        <div class="principle reveal d2"><b data-i18n="story_pr1_t">Efficacy</b><span data-i18n="story_pr1_d">Carefully selected, efficacy-driven ingredients</span></div>
+        <div class="principle reveal d3"><b data-i18n="story_pr2_t">Balance</b><span data-i18n="story_pr2_d">Well-balanced, skin-friendly formulations</span></div>
+        <div class="principle reveal d4"><b data-i18n="story_pr3_t">Comfort</b><span data-i18n="story_pr3_d">A comfortable daily user experience</span></div>
+      </div>
+      <p class="story-quote reveal d2" data-i18n="story_quote">"VIVORA focuses on balanced formulations that support the skin's natural ability to maintain its own healthy condition."</p>
+    </div>
+    <div class="story-img reveal d2">
+      <img src="assets/img/symbol/beige-princess.jpg" alt="VIVORA" onerror="this.src='assets/img/symbol/mint-queen.jpg'">
+    </div>
+  </div>
+</section>
+
+<!-- ============ TECH / RG3 ============ -->
+<section class="tech" id="tech">
+  <div class="wrap">
+    <span class="eyebrow light reveal" data-i18n="tech_eyebrow">02 — Technology & Core Science</span>
+    <h2 class="sec-title reveal d1" data-i18n="tech_title">Fermented RG3, by skin science</h2>
+    <p class="sec-lead reveal d2" data-i18n="tech_lead">Our core formulations are powered by patented fermented RG3 — a ginseng-derived active developed on research technology from the Gyeongsangbuk-do Agricultural Research &amp; Extension Services. Enzymatic fermentation enhances the active components to support skin conditioning.</p>
+    <div class="flow">
+      <div class="flow-step reveal"><div class="flow-ic">🌿</div><b data-i18n="flow1_t">Ginseng Root</b><span data-i18n="flow1_d">Nature-derived ingredient</span></div>
+      <div class="flow-arrow reveal d1"></div>
+      <div class="flow-step reveal d1"><div class="flow-ic">⚗️</div><b data-i18n="flow2_t">Fermentation</b><span data-i18n="flow2_d">Enzymatic processing</span></div>
+      <div class="flow-arrow reveal d2"></div>
+      <div class="flow-step reveal d2"><div class="flow-ic">💧</div><b data-i18n="flow3_t">Fermented RG3</b><span data-i18n="flow3_d">Active compound</span></div>
+      <div class="flow-arrow reveal d3"></div>
+      <div class="flow-step reveal d3"><div class="flow-ic">✨</div><b data-i18n="flow4_t">Skin Conditioning</b><span data-i18n="flow4_d">Balanced, healthy-looking skin</span></div>
+    </div>
+    <div class="tech-stats">
+      <div class="tstat reveal"><div class="tstat-num" data-count="2"><span data-i18n="stat1_num">2</span></div><div class="tstat-lbl" data-i18n="stat1_lbl">Signature lines — Genēon &amp; Joseon</div></div>
+      <div class="tstat reveal d1"><div class="tstat-num"><span data-i18n="stat2_num">100%</span></div><div class="tstat-lbl" data-i18n="stat2_lbl">Skin-irritation tested across the range</div></div>
+      <div class="tstat reveal d2"><div class="tstat-num"><span data-i18n="stat3_num">3</span></div><div class="tstat-lbl" data-i18n="stat3_lbl">Global registrations — FDA · CPNP · Vietnam</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INGREDIENTS ============ -->
+<section class="ingr" id="ingr">
+  <div class="wrap">
+    <span class="eyebrow reveal" data-i18n="ingr_eyebrow">03 — Key Ingredients</span>
+    <h2 class="sec-title reveal d1" data-i18n="ingr_title">Functional actives, in balance</h2>
+    <p class="sec-lead reveal d2" data-i18n="ingr_lead">Selected functional ingredients chosen according to each product's character, working together to support a balanced skin condition.</p>
+    <div class="ingr-grid">
+      <div class="ingr-card reveal"><div class="ingr-ic">🧬</div><h3 data-i18n="ingr1_t">Fermented RG3</h3><p data-i18n="ingr1_d">Patented Bacillus / Panax Ginseng Root Ferment Filtrate. Ginseng-derived active for skin vitality &amp; antioxidant support.</p><span class="ingr-tag" data-i18n="ingr1_tag">Patented</span></div>
+      <div class="ingr-card reveal d1"><div class="ingr-ic">🛡️</div><h3 data-i18n="ingr2_t">PDRN (Sodium DNA)</h3><p data-i18n="ingr2_d">Formulated with skin-barrier care in mind, helping skin appear healthier and firmer.</p><span class="ingr-tag" data-i18n="ingr2_tag">Barrier care</span></div>
+      <div class="ingr-card reveal d2"><div class="ingr-ic">🔗</div><h3 data-i18n="ingr3_t">Peptide Complex</h3><p data-i18n="ingr3_d">Supports firmness and texture for smooth, refined-looking skin.</p><span class="ingr-tag" data-i18n="ingr3_tag">Firmness</span></div>
+      <div class="ingr-card reveal d3"><div class="ingr-ic">💡</div><h3 data-i18n="ingr4_t">Niacinamide</h3><p data-i18n="ingr4_d">Supports a clear, even-looking tone for brighter, more radiant skin.</p><span class="ingr-tag" data-i18n="ingr4_tag">Radiance</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTS ============ -->
+<section class="products" id="products">
+  <div class="wrap">
+    <span class="eyebrow reveal" data-i18n="prod_eyebrow">04 — Product Line</span>
+    <h2 class="sec-title reveal d1" data-i18n="prod_title">Two lines, one philosophy</h2>
+
+    <!-- GENEON -->
+    <div class="line-head" style="margin-top:46px">
+      <div>
+        <span class="line-badge reveal" data-i18n="geneon_badge">4-1 · VIVORA Genēon</span>
+        <h3 class="reveal d1" style="font-size:1.9rem;color:var(--purple-deep)" data-i18n="geneon_title">Signature Functional Skincare</h3>
+      </div>
+      <p class="reveal d2" style="max-width:420px;color:#5e5876;font-size:.95rem" data-i18n="geneon_desc">A fundamental Mist · Ampoule · Cream routine formulated with fermented RG3 to support hydration, conditioning and elasticity care.</p>
+    </div>
+    <div class="prod-grid" id="grid-geneon"></div>
+
+    <!-- JOSEON -->
+    <div class="line-head" style="margin-top:80px">
+      <div>
+        <span class="line-badge reveal" data-i18n="joseon_badge">4-2 · VIVORA Joseon</span>
+        <h3 class="reveal d1" style="font-size:1.9rem;color:var(--purple-deep)" data-i18n="joseon_title">Heritage Reimagined</h3>
+      </div>
+      <p class="reveal d2" style="max-width:460px;color:#5e5876;font-size:.95rem" data-i18n="joseon_desc">"Why do Korean products often lack distinctly Korean imagery?" The Joseon line reinterprets the restrained elegance of the Joseon era through modern skin science.</p>
+    </div>
+    <div class="prod-grid" id="grid-joseon"></div>
+
+    <!-- TEXTURE / 제형 -->
+    <div class="texture reveal">
+      <div class="texture-media" id="textureMedia">
+        <div class="ph" id="texturePh">
+          <span style="font-size:2rem">🎬</span>
+          <span data-i18n="texture_ph">Texture motion video — to be added (see asset prompts)</span>
+        </div>
+      </div>
+      <div class="texture-txt">
+        <span class="eyebrow" data-i18n="texture_eyebrow">Texture in Motion</span>
+        <h3 data-i18n="texture_title">Gold Capsule Ampoule</h3>
+        <p data-i18n="texture_desc">A premium all-in-one ampoule with fine gold threads, vitamin capsule beads that melt on contact, and rose callus-derived extracellular vesicles — hydration, conditioning and a radiant finish in a single step.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="why" id="why">
+  <div class="wrap">
+    <span class="eyebrow reveal" data-i18n="why_eyebrow">05 — Why VIVORA</span>
+    <h2 class="sec-title reveal d1" data-i18n="why_title">A brand buyers can build on</h2>
+    <div class="why-grid">
+      <div class="why-col reveal d1">
+        <h3 data-i18n="why_skin">Skin Benefits</h3>
+        <div class="why-item"><div class="why-num">01</div><div><b data-i18n="why_s1_t">Hydration Care</b><span data-i18n="why_s1_d">Provides moisture and comfort when skin feels dry.</span></div></div>
+        <div class="why-item"><div class="why-num">02</div><div><b data-i18n="why_s2_t">Skin Conditioning</b><span data-i18n="why_s2_d">Supports a balanced, healthy-looking complexion.</span></div></div>
+        <div class="why-item"><div class="why-num">03</div><div><b data-i18n="why_s3_t">Firmness Care</b><span data-i18n="why_s3_d">Helps skin look smooth and firm.</span></div></div>
+        <div class="why-item"><div class="why-num">04</div><div><b data-i18n="why_s4_t">Daily Derma Skincare</b><span data-i18n="why_s4_d">Designed for comfortable everyday use.</span></div></div>
+      </div>
+      <div class="why-col reveal d2">
+        <h3 data-i18n="why_brand">Brand Strength</h3>
+        <div class="why-item strength"><div class="why-num">01</div><div><b data-i18n="why_b1_t">RG3-Based Concept</b><span data-i18n="why_b1_d">Core formulation centred on ginseng-derived RG3.</span></div></div>
+        <div class="why-item strength"><div class="why-num">02</div><div><b data-i18n="why_b2_t">Research-Backed Technology</b><span data-i18n="why_b2_d">Fermented actives from a public agricultural research institute.</span></div></div>
+        <div class="why-item strength"><div class="why-num">03</div><div><b data-i18n="why_b3_t">Balanced Formulation</b><span data-i18n="why_b3_d">PDRN, peptides and niacinamide selected to support skin.</span></div></div>
+        <div class="why-item strength"><div class="why-num">04</div><div><b data-i18n="why_b4_t">Irritation Tested</b><span data-i18n="why_b4_d">All products complete skin-irritation testing.</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GLOBAL ============ -->
+<section class="global" id="global">
+  <div class="wrap">
+    <span class="eyebrow light reveal" data-i18n="global_eyebrow">06 — From Launch to Global Markets</span>
+    <h2 class="sec-title reveal d1" data-i18n="global_title">A K-beauty brand the world comes to</h2>
+    <p class="sec-lead reveal d2" data-i18n="global_lead">From Lotte Department Store in Korea to beauty expos and pop-ups across Europe, the Americas and Asia — VIVORA is building a global buyer network. As of 2026, multi-store discussions are underway in the Middle East and Japan.</p>
+
+    <div class="map-wrap reveal d1" id="mapWrap"></div>
+    <div class="markets" id="markets"></div>
+
+    <div class="channels">
+      <div class="chart-box reveal d1"><h4 data-i18n="chart1_t">Global Sales Channel Mix</h4><canvas id="chartGlobal"></canvas></div>
+      <div class="chart-box reveal d2"><h4 data-i18n="chart2_t">Total Sales Channel Mix</h4><canvas id="chartTotal"></canvas></div>
+    </div>
+
+    <div class="proof">
+      <figure class="reveal"><img src="assets/img/media/expo-1.jpg" alt="Expo"><figcaption data-i18n="proof1">Lotte Brand Expo · buyer meetings &amp; sell-out</figcaption></figure>
+      <figure class="reveal d1"><img src="assets/img/media/expo-2.jpg" alt="Expo"><figcaption data-i18n="proof2">Milan Pop-up · consumer demand validated</figcaption></figure>
+      <figure class="reveal d2"><img src="assets/img/media/expo-3.jpg" alt="Expo"><figcaption data-i18n="proof3">Vienna · Paris · Mexico buyer expos</figcaption></figure>
+      <figure class="reveal d3"><img src="assets/img/media/expo-4.jpg" alt="Expo"><figcaption data-i18n="proof4">KRis Dia Pop-up · Seattle, USA</figcaption></figure>
+    </div>
+
+    <div class="celeb reveal">
+      <video src="assets/img/media/yuri-promo-1.mp4" controls playsinline muted preload="metadata"></video>
+      <video src="assets/img/media/yuri-promo-2.mp4" controls playsinline muted preload="metadata"></video>
+      <p class="celeb-cap" data-i18n="celeb_cap">Brand promotion featuring Yuri (Girls' Generation)</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERT ============ -->
+<section class="cert" id="cert">
+  <div class="wrap">
+    <span class="eyebrow reveal" data-i18n="cert_eyebrow">Trust & Compliance</span>
+    <h2 class="sec-title reveal d1" data-i18n="cert_title">Registered for global markets</h2>
+    <p class="sec-lead reveal d2" data-i18n="cert_lead">Every VIVORA product has completed the key cosmetic registrations required to enter major markets — ready for import and retail.</p>
+    <div class="cert-grid">
+      <div class="cert-card reveal"><div class="cert-seal">US<br>FDA</div><h3 data-i18n="cert1_t">U.S. FDA Cosmetic Registration</h3><p data-i18n="cert1_d">Completed for all products.</p></div>
+      <div class="cert-card reveal d1"><div class="cert-seal">EU<br>CPNP</div><h3 data-i18n="cert2_t">EU CPNP Registration</h3><p data-i18n="cert2_d">Completed for all products.</p></div>
+      <div class="cert-card reveal d2"><div class="cert-seal">VN<br>CN</div><h3 data-i18n="cert3_t">Vietnam Cosmetic Notification</h3><p data-i18n="cert3_d">Completed for all products.</p></div>
+    </div>
+    <p class="cert-note reveal" data-i18n="cert_note">Also present in Lotte Department Store (Korea) · dermatology &amp; aesthetic channels · international beauty expos.</p>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <span class="eyebrow light reveal" data-i18n="contact_eyebrow">07 — Partnership</span>
+      <h2 class="sec-title reveal d1" data-i18n="contact_title">Let's bring VIVORA to your market</h2>
+      <p class="sec-lead reveal d2" data-i18n="contact_lead">We work with local distributors, direct B2B buyers and select retailers. Tell us about your market and we'll get back to you with catalogues, pricing and MOQ details.</p>
+      <div class="contact-points">
+        <div class="cpoint reveal"><div class="ic">✉️</div><div><b data-i18n="contact_email_l">Email</b><span>vivoralabs@naver.com</span></div></div>
+        <div class="cpoint reveal d1"><div class="ic">🌐</div><div><b data-i18n="contact_web_l">Website</b><span>vivora.co.kr</span></div></div>
+        <div class="cpoint reveal d2"><div class="ic">📦</div><div><b data-i18n="contact_ch_l">Channels</b><span data-i18n="contact_ch_v">Local distributor · Direct B2B · Select retail</span></div></div>
+      </div>
+      <div class="dl-row">
+        <a href="assets/catalog/VIVORA-Brand-Introduction.pdf" download class="btn btn-ghost" data-i18n="dl_brand">↓ Brand Introduction</a>
+        <a href="assets/catalog/VIVORA-Product-Catalog.pdf" download class="btn btn-ghost" data-i18n="dl_catalog">↓ Product Catalogue</a>
+      </div>
+    </div>
+    <form class="form reveal d1" id="inquiryForm">
+      <h3 data-i18n="form_title">Buyer Inquiry</h3>
+      <p class="sub" data-i18n="form_sub">Fields marked * are required.</p>
+      <div class="frow">
+        <div class="field"><label data-i18n="f_company">Company *</label><input name="company" required></div>
+        <div class="field"><label data-i18n="f_name">Contact name *</label><input name="name" required></div>
+      </div>
+      <div class="frow">
+        <div class="field"><label data-i18n="f_email">Email *</label><input type="email" name="email" required></div>
+        <div class="field"><label data-i18n="f_country">Country / Region *</label><input name="country" required></div>
+      </div>
+      <div class="frow">
+        <div class="field"><label data-i18n="f_channel">Channel type</label>
+          <select name="channel">
+            <option data-i18n="f_ch_opt1">Local distributor</option>
+            <option data-i18n="f_ch_opt2">Direct B2B buyer</option>
+            <option data-i18n="f_ch_opt3">Select shop / retail</option>
+            <option data-i18n="f_ch_opt4">Online / e-commerce</option>
+            <option data-i18n="f_ch_opt5">Other</option>
+          </select>
+        </div>
+        <div class="field"><label data-i18n="f_moq">Target MOQ / volume</label><input name="moq" placeholder="e.g. 500 units"></div>
+      </div>
+      <div class="field full"><label data-i18n="f_msg">Message</label><textarea name="message" data-i18n-ph="f_msg_ph" placeholder="Which products are you interested in? Tell us about your market."></textarea></div>
+      <button type="submit" class="btn btn-primary" data-i18n="f_submit">Send inquiry</button>
+      <p class="form-note" data-i18n="f_note">Your inquiry opens a pre-filled email to vivoralabs@naver.com.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-top">
+      <div class="ftr-brand">
+        <img src="assets/img/logo/vivora-white.png" alt="VIVORA" class="ftr-logo" onerror="this.src='assets/img/logo/vivora.png'">
+        <p data-i18n="ftr_desc">Balanced skincare for the skin's natural health. A Korean derma-skincare brand built on fermented RG3 technology.</p>
+      </div>
+      <div class="ftr-links">
+        <div class="ftr-col">
+          <h5 data-i18n="ftr_explore">Explore</h5>
+          <a href="#story" data-i18n="nav_brand">Brand</a>
+          <a href="#tech" data-i18n="nav_tech">Technology</a>
+          <a href="#products" data-i18n="nav_products">Products</a>
+          <a href="#global" data-i18n="nav_global">Global</a>
+        </div>
+        <div class="ftr-col">
+          <h5 data-i18n="ftr_partner">Partnership</h5>
+          <a href="#contact" data-i18n="nav_cta">Become a Partner</a>
+          <a href="assets/catalog/VIVORA-Brand-Introduction.pdf" download data-i18n="dl_brand2">Brand Introduction</a>
+          <a href="assets/catalog/VIVORA-Product-Catalog.pdf" download data-i18n="dl_catalog2">Product Catalogue</a>
+        </div>
+        <div class="ftr-col">
+          <h5 data-i18n="ftr_contact">Contact</h5>
+          <p>vivoralabs@naver.com</p>
+          <p>vivora.co.kr</p>
+        </div>
+      </div>
+    </div>
+    <div class="ftr-bot">
+      <span>© 2026 VIVORA LABS. All rights reserved.</span>
+      <span data-i18n="ftr_tag">Beauty in Balance</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="assets/js/translations.js"></script>
+<script src="assets/js/translations-detail.js"></script>
+<script src="assets/js/product-data.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
